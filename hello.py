@@ -1,4 +1,5 @@
 import streamlit as st
+st.beta_set_page_config(page_title="Streamlit Tutorial", page_icon=":sunglasses:", layout="wide", initial_sidebar_state="expanded", background_color="#ECF9F7")
 
 def intro():
     import streamlit as st
@@ -226,5 +227,5 @@ page_names_to_funcs = {
     "DataFrame Demo": data_frame_demo
 }
 
-demo_name = st.sidebar.selectbox("원하는 지역을 선택하세요", page_names_to_funcs.keys())
+demo_name = st.sidebar.selectbox("**어떤 집을 찾으시나요?**", page_names_to_funcs.keys())
 page_names_to_funcs[demo_name]()
