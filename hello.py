@@ -227,5 +227,5 @@ page_names_to_funcs = {
     "DataFrame Demo": data_frame_demo
 }
 
-demo_name = st.sidebar.selectbox("#어떤 집을 찾으시나요?", page_names_to_funcs.keys())
+demo_name = st.sidebar.selectbox("어떤 집을 찾으시나요?", page_names_to_funcs.keys())
 page_names_to_funcs[demo_name]()
