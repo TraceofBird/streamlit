@@ -1,5 +1,5 @@
 import streamlit as st
-st.beta_set_page_config(page_title="Streamlit Tutorial", page_icon=":sunglasses:", layout="wide", initial_sidebar_state="expanded", background_color="#ECF9F7")
+st.beta_set_page_config(background_color="#ECF9F7")
 
 def intro():
     import streamlit as st
