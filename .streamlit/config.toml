@@ -1,5 +1,4 @@
-# config.toml 파일
 [theme]
-base="light"
 primaryColor="green"		
-secondaryBackgroundColor="#90DAD3" 		
+secondaryBackgroundColor="green" 		
+backgroundColor = "#FFFFFF"
