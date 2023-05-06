@@ -1,5 +1,5 @@
 import streamlit as st
-st.beta_set_page_config(background_color="#ECF9F7")
+st.beta_set_page_config(background_color="#FFFFFF")
 
 def intro():
     import streamlit as st
